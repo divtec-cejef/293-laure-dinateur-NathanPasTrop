@@ -66,11 +66,6 @@ h6 {
     font-weight: 400;
 }
 
-a {
-    color: #e71d36;
-    text-decoration: none;
-}
-
 h1 {
     font-size: 2rem;
     margin-bottom: 1em;
@@ -84,6 +79,12 @@ h2 {
 p {
     line-height: 1.5;
 }
+
+a {
+     color: #e71d36;
+     text-decoration: none;
+}
+
 /****************************
     ENTÊTE PAGE
 ****************************/
