@@ -96,6 +96,9 @@ header {
     background-color: black;
     text-align: center;
 }
+main {
+    margin: 0 25rem;
+}
 footer {
     padding-top: 50px;
 }
