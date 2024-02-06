@@ -84,7 +84,26 @@ a {
      color: #e71d36;
      text-decoration: none;
 }
-
+body {
+    text-align: center;
+    margin: 0;
+}
+li {
+    text-decoration: none;
+}
+.laure {
+    border-radius: 1000px;
+}
+header {
+    background-color: black;
+}
+footer {
+    padding-top: 50px;
+}
+img:hover {
+    filter: grayscale(0);
+    transition: filter 500ms linear;
+}
 /****************************
     ENTÊTE PAGE
 ****************************/
