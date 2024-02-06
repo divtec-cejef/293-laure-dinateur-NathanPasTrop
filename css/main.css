@@ -50,12 +50,6 @@ body {
     background-color: #fdfffc;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
-
 h1,
 h2,
 h3,
@@ -64,6 +58,7 @@ h5,
 h6 {
     font-family: "Changa One", sans-serif;
     font-weight: 400;
+    text-align: center;
 }
 
 h1 {
@@ -79,23 +74,27 @@ h2 {
 p {
     line-height: 1.5;
 }
-
 a {
      color: #e71d36;
      text-decoration: none;
 }
 body {
-    text-align: center;
     margin: 0;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+    padding: 20px;
 }
 li {
     text-decoration: none;
 }
-.laure {
-    border-radius: 1000px;
-}
 header {
     background-color: black;
+    text-align: center;
 }
 footer {
     padding-top: 50px;
@@ -103,14 +102,26 @@ footer {
 a:hover {
     color: #2ec4b6;
 }
-img:hover {
+footer img {
+    filter: grayscale(1);
+    display: inline-block;
+}
+footer img:hover {
     filter: grayscale(0);
     transition: filter 500ms linear;
 }
+footer {
+    text-align: center;
+}
 /****************************
-    ENTÊTE PAGE
+    page information
 ****************************/
-
+.page-info .photo {
+    max-width: 200px;
+    display: block;
+    margin: 2em auto;
+    border-radius: 1000px;
+}
 
 /****************************
     PAGE ACCUEIL
