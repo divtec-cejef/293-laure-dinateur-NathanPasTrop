@@ -85,10 +85,6 @@ nav ul {
     padding: 0;
     margin: 0;
 }
-nav ul li {
-    display: inline-block;
-    padding: 20px;
-}
 li {
     text-decoration: none;
 }
@@ -97,10 +93,11 @@ header {
     text-align: center;
 }
 main {
-    margin: 0 25rem;
+    margin: 0 20%;
 }
 footer {
     padding-top: 50px;
+    text-align: center;
 }
 a:hover {
     color: #2ec4b6;
@@ -113,9 +110,10 @@ footer img:hover {
     filter: grayscale(0);
     transition: filter 500ms linear;
 }
-footer {
-    text-align: center;
-}
+header nav ul li {
+     display: inline-block;
+     padding: 20px;
+ }
 /****************************
     page information
 ****************************/
@@ -125,6 +123,10 @@ footer {
     margin: 2em auto;
     border-radius: 1000px;
 }
+/****************************
+    PAGE CONTACT
+****************************/
+
 
 /****************************
     PAGE ACCUEIL
