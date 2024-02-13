@@ -128,8 +128,23 @@ header nav ul li {
 /*************************************
             PAGE ACCUEIL
  ************************************/
-
-
+.realisations {
+    display: flex;
+    flex-wrap: wrap;
+}
+.realisations > * {
+    flex-basis: 50%;
+}
+.page-accueil img {
+    max-width: 50%;
+    min-width: 40%;
+}
+.page-accueil li {
+    list-style: none;
+}
+.page-accueil figure {
+    margin: 0;
+}
 /*************************************
             PAGE CONTACT
  ************************************/
