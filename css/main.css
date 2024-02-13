@@ -101,6 +101,9 @@ footer {
 a:hover {
     color: #2ec4b6;
 }
+img {
+     max-width: 100%
+ }
 footer img {
     filter: grayscale(1);
     display: inline-block;
@@ -131,20 +134,20 @@ header nav ul li {
 .realisations {
     display: flex;
     flex-wrap: wrap;
-}
-.realisations > * {
-    flex-basis: 50%;
-}
-.page-accueil img {
-    max-width: 50%;
-    min-width: 40%;
-}
-.page-accueil li {
     list-style: none;
-}
-.page-accueil figure {
+    padding: 0;
     margin: 0;
 }
+.realisations li {
+    flex-basis: 50%;
+    flex-grow: 1;
+    list-style: none;
+    padding: 1rem 2.5%;
+}
+figure {
+    margin: 0;
+}
+
 /*************************************
             PAGE CONTACT
  ************************************/
