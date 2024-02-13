@@ -125,19 +125,11 @@ header nav ul li {
 .page-info {
     text-align: center;
 }
-.page-infos h1 {
-     color: aqua;
- }
 /*************************************
             PAGE ACCUEIL
  ************************************/
-.page-accueil h1 {
-    color: yellow;
-}
+
 
 /*************************************
             PAGE CONTACT
  ************************************/
-.page-contact h1 {
-    color: red;
-}
