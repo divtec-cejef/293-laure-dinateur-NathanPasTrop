@@ -116,6 +116,9 @@ header nav ul li {
      display: inline-block;
      padding: 20px;
  }
+.accueil {
+    display: none;
+}
 /****************************
     page information
 ****************************/
@@ -147,20 +150,39 @@ header nav ul li {
 figure {
     margin: 0;
 }
-@media screen and (min-width: 480px) {
-    .page-info .photo {
-        float: left;
-    }
-
-}
-
-@media screen and (min-width: 660px) {
-    .realisations li {
-        flex-basis: 33%;
-        flex-grow: 3;
-    }
-}
 
 /*************************************
             PAGE CONTACT
  ************************************/
+
+
+
+
+/*************************************
+            MEDIA QUERIZE
+ ************************************/
+
+@media screen and (min-width: 480px) {
+    .realisations li {
+        flex-basis: 33%;
+        flex-grow: 3;
+    }
+    .page-info .photo {
+        float: left;
+    }
+}
+
+@media screen and (min-width: 660px) {
+
+}
+
+@media screen and (min-width: 910px) {
+    main,
+    footer {
+        max-width: 910px;
+        margin: 0 auto;
+    }
+    .accueil {
+        display: inline-block;
+    }
+}
