@@ -185,11 +185,11 @@ figure {
 @media screen and (min-width: 660px) {
     header {
         border-bottom: #2ec4b6 5px solid;
+        display: flex;
+        gap: 10%
     }
     .logo {
         width: 42%;
-        padding-left: 5%;
-        text-align: left;
     }
     .laure {
         font-size: 2.5rem;
@@ -199,7 +199,6 @@ figure {
     }
     .menu {
         width: 48%;
-        padding-right: 5%;
         font-size: 1.125rem;
     }
 }
