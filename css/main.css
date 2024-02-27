@@ -173,7 +173,25 @@ figure {
 }
 
 @media screen and (min-width: 660px) {
-
+    header {
+        border-bottom: #2ec4b6 5px solid;
+    }
+    .logo {
+        width: 42%;
+        padding-left: 5%;
+        text-align: left;
+    }
+    .laure {
+        font-size: 2.5rem;
+    }
+    .graph {
+        padding-bottom: 20px;
+    }
+    .menu {
+        width: 48%;
+        padding-right: 5%;
+        font-size: 1.125rem;
+    }
 }
 
 @media screen and (min-width: 910px) {
