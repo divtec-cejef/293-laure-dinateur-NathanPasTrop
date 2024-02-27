@@ -140,12 +140,25 @@ header nav ul li {
 }
 .realisations li {
     flex-basis: 50%;
-    flex-grow: 1;
+    flex-grow: 2;
     list-style: none;
     padding: 1rem 2.5%;
 }
 figure {
     margin: 0;
+}
+@media screen and (min-width: 480px) {
+    .page-info .photo {
+        float: left;
+    }
+
+}
+
+@media screen and (min-width: 660px) {
+    .realisations li {
+        flex-basis: 33%;
+        flex-grow: 3;
+    }
 }
 
 /*************************************
